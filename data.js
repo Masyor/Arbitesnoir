@@ -57,6 +57,12 @@ One day, the Enforcers came to our sector, and this time they didn&#39;t leave. 
 The Abbots don&#39;t care who you were, where you came from. All they care about is what they can make you into. And I became exactly what they needed, a tool, sharpened and honed for a purpose I had no say in. I left my old life behind, buried whatever memories I had and moved on. But sometimes, when the nights are quiet and the whiskey runs dry, I can still hear the thud of autogun fire and the cries of the forgotten souls left behind.
 +++ TRANSCRIPT ENDS+++
 </pre>`,
+            mechanicsInfo: `
+<pre>
+trait 1
+Trait 2
+etc
+</pre>`,
             signature: '- J. Steele',
 			},
         {
@@ -64,6 +70,12 @@ The Abbots don&#39;t care who you were, where you came from. All they care about
             title: 'Chief investigator Alara Voss',
             brief: 'Placeholder',
             detailed: 'Placeholder',
+			mechanicsInfo: `
+			<pre>
+			trait 1
+			Trait 2
+			etc
+			</pre>`,
             signature: '- J. Steele',
         },
         {
@@ -71,6 +83,12 @@ The Abbots don&#39;t care who you were, where you came from. All they care about
             title: 'Marshal Draven',
             brief: 'Placeholder',
             detailed: 'Placeholder',
+			mechanicsInfo: `
+			<pre>
+			trait 1
+			Trait 2
+			etc
+			</pre>`,
             signature: '- J. Steele',
         },
         {
@@ -78,6 +96,12 @@ The Abbots don&#39;t care who you were, where you came from. All they care about
             title: 'Reporter Ian Danews',
             brief: 'Placeholder',
             detailed: 'Placeholder',
+			mechanicsInfo: `
+			<pre>
+			trait 1
+			Trait 2
+			etc
+			</pre>`,
             signature: '- J. Steele',
         },
     ],
@@ -87,6 +111,12 @@ The Abbots don&#39;t care who you were, where you came from. All they care about
             title: 'MIB',
             brief: 'The Mobile Intelligence Bureau - A covert operations precinct of the Adeptus Arbites',
             detailed: 'Placeholder',
+			mechanicsInfo: `
+			<pre>
+			trait 1
+			Trait 2
+			etc
+			</pre>`,
             signature: '- J. Steele',
         },
         {
@@ -94,6 +124,12 @@ The Abbots don&#39;t care who you were, where you came from. All they care about
             title: 'MIC',
             brief: 'The Mobile Intelligence Court - A courtroom precinct of the Adeptus Arbites',
             detailed: 'Placeholder',
+			mechanicsInfo: `
+			<pre>
+			trait 1
+			Trait 2
+			etc
+			</pre>`,
             signature: '- J. Steele',
         }
     ],
@@ -103,6 +139,12 @@ The Abbots don&#39;t care who you were, where you came from. All they care about
             title: 'OPERATION CODENAME: TOMB OF THE NECROMANCER',
             brief: 'Placeholder',
             detailed: 'Placeholder',
+			mechanicsInfo: `
+			<pre>
+			trait 1
+			Trait 2
+			etc
+			</pre>`,
             signature: '- Ian Danews',
         },
         {
@@ -110,7 +152,27 @@ The Abbots don&#39;t care who you were, where you came from. All they care about
             title: 'OPERATION CODENAME: UNWILTING FLOWER',
             brief: 'Placeholder',
             detailed: 'Placeholder',
+			mechanicsInfo: `
+			<pre>
+			trait 1
+			Trait 2
+			etc
+			</pre>`,
             signature: '- Ian Danews',
         }
     ]
+};
+
+const boardLinks = {
+    board1: [
+        { from: 'steele', to: 'voss' }, 
+        { from: 'steele', to: 'draven' }, 
+        { from: 'steele', to: 'danews' } 
+    ],
+    //board2: [
+    //    { from: 'x', to: 'y' }
+    //],
+    //board3: [
+    //    { from: 'x', to: 'y' } 
+    //]
 };
