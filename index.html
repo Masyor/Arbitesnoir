@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noir Arbites</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="rain-effect"></div>
+
+    <div class="top-menu">
+        <button id="board1Btn" class="board-btn active" data-board="board1">Notable Officers</button>
+        <button id="board2Btn" class="board-btn" data-board="board2">Precincts</button>
+        <button id="board3Btn" class="board-btn" data-board="board3">Case Files</button>
+    </div>
+
+    <div class="main-layout">
+        <div class="cork-board-area" id="corkBoard">
+        </div>
+
+        <div class="detail-panel-area" id="detailPanel">
+            <p class="instruction-text">Click a "More Info" button to see the full details here.</p>
+            <div id="detailedContent">
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script> <script src="utils.js"></script> <script src="drag.js"></script> <script src="app.js"></script> </body>
+</html>
