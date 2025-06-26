@@ -6,10 +6,15 @@ const detailedContent = document.getElementById('detailedContent');
 const boardButtons = document.querySelectorAll('.board-btn');
 const instructionText = document.querySelector('.instruction-text');
 const linkSvg = document.getElementById('linkSvg'); // Get the SVG element
-
+const PUSHPIN_OFFSET_X = 0; // The pin is centered horizontally, so its X offset from the note's left edge is 0 (relative to the note's bounding box calculation)
+const PUSHPIN_OFFSET_Y = -10; // The pin's top is 10px *above* the note's top edge
+const PUSHPIN_DIAMETER = 18; // From CSS for .note::before
+const PUSHPIN_OFFSET_FROM_NOTE_TOP = -10; // From .note::before top property
+const PUSHPIN_RADIUS = PUSHPIN_DIAMETER / 2; // For calculations
 // Global variable to keep track of the currently loaded board's links
 let currentBoardLinks = [];
 
+let maxZIndex = 10; // Start with the base z-index for notes
 // --- Helper function to get the absolute center of a note's pushpin (the red circle) ---
 function getPushpinCenter(noteElement) {
     const noteRect = noteElement.getBoundingClientRect();

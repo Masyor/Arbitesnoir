@@ -1,6 +1,4 @@
 /* style.css */
-
-/* Basic Reset & Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -33,12 +31,10 @@ body {
     --menu-bg: rgba(0, 0, 0, 0.8);
     --menu-border: #555;
 	--red-string-color: #c23b22; 
-
-    /* New variables for button colors on notes */
     --button-bg-color: var(--accent-blue);
     --button-text-color: var(--primary-text);
-    --button-hover-bg-color: #2a3a4a; /* A slightly darker blue for hover */
-    --button-border-color: var(--note-border); /* Use note border for consistency */
+    --button-hover-bg-color: #2a3a4a; 
+    --button-border-color: var(--note-border); 
 }
 
 body::before {
@@ -115,15 +111,14 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    pointer-events: none; /* Crucial: Allows clicks/drags to pass through to notes */
-    z-index: 500; /* Place it above the corkboard background but below notes */
+    pointer-events: none; /* Allows clicks/drags to pass through to notes */
+    z-index: 1500; 
 }
 
-/* NEW: Style for the SVG lines (the "strings") */
+/* Style for the "strings" */
 .link-line {
     stroke: var(--accent-red); /* Red color for the string */
     stroke-width: 3px; /* Thickness of the string */
-    /* You can add more styles like stroke-dasharray for a dotted line */
 }
 
 
@@ -233,7 +228,7 @@ body::before {
     text-align: right;
     color: var(--note-border);
     font-size: 0.9em;
-    margin-top: 5px; /* Keep this if you want some space above signature */
+    margin-top: 5px; 
     margin-bottom: 5px; /* Add space below signature before buttons */
 }
 
@@ -252,7 +247,7 @@ body::before {
     border: 1px solid rgba(255,255,255,0.2);
 }
 
-/* NEW: Styles for the button container and the buttons themselves */
+/* Styles for the button container and the buttons themselves */
 .note-buttons {
     display: flex; /* Arrange buttons side-by-side */
     justify-content: space-around; /* Distribute space evenly around buttons */
@@ -261,9 +256,9 @@ body::before {
 }
 
 .note-buttons .info-btn { /* Apply to both 'More Info' and 'Mechanics' buttons */
-    background-color: var(--button-bg-color); /* Uses new variable */
-    color: var(--button-text-color); /* Uses new variable */
-    border: 1px solid var(--button-border-color); /* Uses new variable */
+    background-color: var(--button-bg-color); 
+    color: var(--button-text-color); 
+    border: 1px solid var(--button-border-color); 
     padding: 8px 15px; /* Consistent padding */
     border-radius: 3px; /* Slightly rounded corners */
     cursor: pointer;
@@ -278,34 +273,7 @@ body::before {
 }
 
 .note-buttons .info-btn:hover {
-    background-color: var(--button-hover-bg-color); /* Uses new variable for hover */
+    background-color: var(--button-hover-bg-color);
     color: var(--primary-text); /* Keeps text color consistent on hover */
     box-shadow: 3px 3px 8px rgba(0,0,0,0.7);
 }
-
-/* Remove the old .more-info-btn specific style as it's now covered by .info-btn */
-/* You can delete this block */
-/*
-.more-info-btn {
-    display: block;
-    width: fit-content;
-    margin: 10px auto 0;
-    padding: 8px 15px;
-    background-color: var(--accent-blue);
-    color: var(--primary-text);
-    text-decoration: none;
-    font-family: 'Oswald', sans-serif;
-    font-size: 0.9em;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.2s ease, box-shadow 0.2s ease;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-}
-
-.more-info-btn:hover {
-    background-color: #2a3a4a;
-    box-shadow: 3px 3px 8px rgba(0,0,0,0.7);
-}
-*/

@@ -69,7 +69,21 @@ etc
             id: 'voss',
             title: 'Chief investigator Alara Voss',
             brief: 'Placeholder',
-            detailed: 'Placeholder',
+            detailed: `
+<pre>
++++ RECORDING TRANSCRIPT +++ 
++++ AUTHOR: J.STEELE +++
++++ DATE: [REDACTED] +++
++++ TRANSCRIPT BEGINS +++
+Alara Voss. Now, there’s a name that sticks with you. Sharp as a razor, dangerous as a live krak grenade, and impossible to read. She was the lead detective for the Bureau, and I trusted her with my life. Cold, calculating, always three steps ahead of everyone else in the room. 
+She had this way of getting what she wanted, whether it was information, trust, or someone’s life, all without ever letting them know if they were playing her game or she was playing theirs. It’s like she walked through the world knowing every move before it was made, like she could see the web of deceit stretching out around her and knew exactly where to pull the threads.
+She had the looks to match, too. That kind of beauty that lured you in, wrapped around you like a silk noose, and before you knew it, you were hooked. It wasn’t just her looks, though, it was the way she carried herself. Every step, every glance was calculated, like she had the universe in her sights and knew exactly when to pull the trigger.
+When we worked together, there was always this tension, like a coiled wire, ready to snap. Not because I didn’t trust her. Hell, I trusted Voss more than anyone. But with her, you always had to wonder: was she doing this because it was the right move, or because it served her own agenda? She had secrets, everyone in this line of work does, but with her, it felt like those secrets went deep. Real deep.
+But damn, she was good at her job. If there was a lead to chase, she’d have it pinned down before the ink was dry on the reports. Her methods weren’t always clean, though. She had a way of getting into people’s heads, manipulating them, playing on their desires and fears. She’d play the role of the damsel, the ally, the lover, whatever got her closer to the truth. And more often than not, it worked. But I always wondered what it cost her.
+Working with Voss was like dancing on the edge of a knife. You knew you could fall, but you couldn’t help but admire the precision, the grace of it all. There’s a darkness in her, though—a part of her that’s always looking for something more, something deeper. Whether it’s power, control, or just the thrill of the chase, I don’t know. But I do know this: if I ever needed someone to have my back, to get the job done no matter the cost, there’s no one I’d pick over her.
++++ TRANSCRIPT ENDS+++
+</pre>
+`,
 			mechanicsInfo: `
 			<pre>
 			trait 1
@@ -82,7 +96,22 @@ etc
             id: 'draven',
             title: 'Marshal Draven',
             brief: 'Placeholder',
-            detailed: 'Placeholder',
+            detailed: `
+<pre>
++++ RECORDING TRANSCRIPT +++ 
++++ AUTHOR: J.STEELE +++
++++ DATE: [REDACTED] +++
++++ TRANSCRIPT BEGINS +++
+Caius Draven. If ever there was a man who looked like he was carved from a slab of ceramite, it’s him. Lead Proctor of the Bureau, and about as subtle as a powerfist to the face. 
+Where Voss and I dealt in whispers, Draven dealt in force. He’s the muscle, plain and simple. A wall of a man, no-nonsense, straight to the point. You won’t catch him wasting time with mind games or deception. He doesn't need to.
+Draven was the kind of guy you want around when things get ugly, and in our line of work, they always do. When a situation goes sideways, when negotiations fail, when all the talk and scheming has played out, that’s when Draven steps in with a swarm of Arbitrators. And when he does, it’s over fast. There’s no second guessing, no hesitation. He’s a hammer in a world full of nails, and Emperor help anyone who finds themselves on the wrong end of his swing.
+He’s not just big, either, he’s smart in a way people don’t expect. Most take one look at the guy and figure he’s just another brute, someone to point in the right direction and hope he doesn’t break too much on his way through. But Draven’s been around long enough to know how to read a situation. He might not talk much, but when he does, you listen. The man has a way of cutting through the noise, boiling everything down to its essentials. You need that kind of clarity in this business.
+There’s something comforting about Draven’s presence, though. When he’s with you, you feel like nothing can touch you. Not because you’re invincible, but because he is. I’ve seen him take down entire gangs with nothing but his fists and that grim, unflinching stare of his. Doesn’t matter if they’re armed to the teeth—he’s always the last one standing. And when Draven says he’s got your back, you know it’s not just words. The man’s loyalty is like his body, a rock: solid, unmovable, and unwavering.
+But make no mistake, Draven isn’t the kind of guy who forgives easily. Cross him, or worse, fail him, and you’ll wish you hadn’t. He’s not cruel, not sadistic, but he’s got his own code. A simple one: you pull your weight, you follow orders, and you don’t waste time. 
+If you’re on the other side of the law, there’s no mercy, no negotiations. Draven delivers the Emperor’s justice the way it was meant to be delivered: swift, brutal, and absolute.
++++ TRANSCRIPT ENDS+++
+</pre>
+`,
 			mechanicsInfo: `
 			<pre>
 			trait 1
@@ -95,7 +124,20 @@ etc
             id: 'danews',
             title: 'Reporter Ian Danews',
             brief: 'Placeholder',
-            detailed: 'Placeholder',
+            detailed: `
+<pre>
++++ RECORDING TRANSCRIPT +++ 
++++ AUTHOR: J.STEELE +++
++++ DATE: [REDACTED] +++
++++ TRANSCRIPT BEGINS +++
+Ian Danews, officially, he’s a reporter for The Imperial Times, a news organization that prides itself on keeping the Imperium informed. Unofficially? He’s on the Bureau’s payroll, and he’s got a knack for spinning narratives to suit our needs.
+Ian plays the part of the affable journalist, always looking for the next big scoop, always digging for the truth. But that truth is malleable in his hands. He knows how to twist a story, how to paint a picture that serves our interests rather than the reality of it. Need to discredit a corrupt official? A few choice words from Ian can make them look like the worst kind of heretic. Need to bolster our image after a messy operation? Just give him a call, and he’ll write up a tale of heroism that even the most cynical of citizens would swallow whole.
+But like all of us, Ian’s playing a dangerous game. He walks a tightrope between two worlds, one where he’s supposed to uphold the truth and another where he’s weaving lies for the Bureau’s sake. The strain of that duality can get to you. I’ve seen it in the way he sometimes stares into the distance, as if he’s wrestling with the very words he puts on paper. In a universe where loyalty is as fleeting as a spark in the void, Ian’s juggling identities, and it takes its toll.
+There are times I wonder how long he can keep it up, how long before he loses himself in the stories he spins, the lives he manipulates. But for now, he’s invaluable. He’s the one who helps us keep tabs on the criminal underbelly, the one who feeds us information when we need it most. He’s got contacts, sources, and an ear to the ground.
+In a way, he’s just like the rest of us. He knows the risks, knows he’s playing with fire, but the thrill of the chase keeps him going. And as long as he’s around, I know we’ll have our stories straight. Because in a world where truth is often stranger than fiction, it helps to have a good writer on your side.
++++ TRANSCRIPT ENDS+++
+</pre>
+`,
 			mechanicsInfo: `
 			<pre>
 			trait 1
@@ -110,7 +152,20 @@ etc
             id: 'mib',
             title: 'MIB',
             brief: 'The Mobile Intelligence Bureau - A covert operations precinct of the Adeptus Arbites',
-            detailed: 'Placeholder',
+            detailed: `
+<pre>
++++ RECORDING TRANSCRIPT +++ 
++++ AUTHOR: J.STEELE +++
++++ DATE: [REDACTED] +++
++++ TRANSCRIPT BEGINS +++
+The Mobile Investigations Bureau? That’s my baby. A project born out of necessity, not ambition. I didn’t ask for it, didn’t want it at first, but the Arbites brass had other ideas. They saw something in me, so they gave me a blank slate and told me to make it work.
+The Bureau isn’t like your typical Arbites precincts, with their heavy fortifications and loud, iron-fisted crackdowns. No, this is different. We aren’t stationed in one place, we move. Always shifting, always adapting, like predators on the hunt. The idea is simple: bring the law to the lawless, dive deep into the murk of the underworld, and root out corruption from within. It’s undercover work, plain and simple, but on a larger scale. 
+I built the Bureau from the ground up, structuring it so we could slip into any hive city, any planet, and disappear until the job was done. No uniforms, no chains of command. Just results. We would go after the kind of targets no one else could touch, the noble houses dealing in black-market xeno tech, the syndicates who had their claws deep in the local enforcers, and the heretics who corrupted from the shadows.
+But here’s the thing about living in the shadows: you start to forget what the light feels like. We get so deep in the underbelly of the Imperium, sometimes it feels like we aren’t even Arbites anymore. Like we are becoming what we hunt. And maybe that’s why the Bureau works so well. We aren’t just enforcing the law, we were part of the chaos, pulling the strings, laying the traps.
+It’s perfect, in its own broken way, but it takes a toll. On all of us. You can’t wade through that much filth without some of it sticking. And when you live a lie long enough, there’s always the danger that you might just start to forget who you were before. 
++++ TRANSCRIPT ENDS+++
+</pre>
+`,
 			mechanicsInfo: `
 			<pre>
 			trait 1
@@ -135,6 +190,29 @@ etc
     ],
     board3: [
         {
+            id: 'camptotal',
+            title: 'OPERATION LOG',
+            brief: 'Placeholder',
+            detailed: 'Placeholder',
+			mechanicsInfo: `
+<pre>
+<b><u>Campaign Rewards</u></b>
+Revolution in turmoil - Cancelled - 10%
+TOC, this is entry team - Cancelled - 20%
+Wuzzag's - Cancelled - 15%
+Price of Darkness - Cancelled - 5%
+Sins of Secrecy - 10%
+Tomb of the Necromancer - 15%
+Unwilting Flower - 20%
+<b><u>Other Rewards</u></b>
+OC age up reward - 5%
+Approvals & Events - 30%
+Taking down a corrupt church official (Force scrapped) - 70.4%
+
+</pre>`,
+            signature: '- Ian Danews',
+        },
+		{
             id: 'camp1',
             title: 'OPERATION CODENAME: TOMB OF THE NECROMANCER',
             brief: 'Placeholder',
